@@ -37,15 +37,15 @@ public class CompletarCompra implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        Object CheckoutPage;
+        Object CompletarCompra;
         actor.attemptsTo(
-                Enter.theValue(nombre).into(CheckoutPage.FIRST_NAME),
-                Enter.theValue(apellido).into(CheckoutPage.LAST_NAME),
-                Enter.theValue(codigoPostal).into(CheckoutPage.POSTAL_CODE),
-                Click.on(CheckoutPage.BTN_CONTINUE),
+                Enter.theValue(nombre).into(CompletarCompra.FIRST_NAME),
+                Enter.theValue(apellido).into(CompletarCompra.LAST_NAME),
+                Enter.theValue(codigoPostal).into(CompletarCompra.POSTAL_CODE),
+                Click.on(CompletarCompra.BTN_CONTINUE),
 
 
-                Click.on(CheckoutPage.BTN_FINISH)
+                Click.on(CompletarCompra.BTN_FINISH)
         );
     }
 }
