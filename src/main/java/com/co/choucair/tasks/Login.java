@@ -16,7 +16,7 @@ import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisi
 
 public class Login implements Task {
 
-    SaucedemoLoginTes;
+    SaucedemoLoginTest userLoombokData;
 
     public Login(SaucedemoLoginTest userLoombokData) {
         this.userLoombokData = userLoombokData;
