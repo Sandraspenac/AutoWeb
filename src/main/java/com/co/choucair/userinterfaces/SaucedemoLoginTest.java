@@ -10,22 +10,22 @@ public class SaucedemoLoginTest {
     public static final Target DASHBOARD_TITLE = null;
 
     static {
-        TXT_USER = Target.the("txtuser")
-                .located(By.id("user-name"));
+        TXT_USER = Target.the("campo usuario")
+                .located(By.id("standard-user"));
     }
 
     public static final Target TXT_PASS;
 
     static {
-        TXT_PASS = Target.the("txtpass")
-                .located(By.xpath("//input[@id='LoginPanel0_Password']"));
+        TXT_PASS = Target.the("campo contraseña")
+                .located(By.id("secret_sauce"));
     }
 
     public static final Target BTN_LOGIN;
 
     static {
         BTN_LOGIN = Target.the("botón login")
-                .locatedBy("//input[@id='login-button']");
+                .located(By.id("login-button"));
     }
 
 }

@@ -12,8 +12,14 @@ import net.serenitybdd.screenplay.targets.Target;
 public class SauceLogin implements Task {
 
 
-    private static final String TXT_USER = "standard_user";
-    private static final String TXT_PASS = "secret_sauce";
+    private static final Target TXT_USER = Target.the("campo usuario")
+
+        .locatedBy("//input[@id='user-name']");
+
+    private static final Target TXT_PASS = Target.the("campo contraseña")
+
+        .locatedBy("//input[@id='password']");
+
     private static final Target BTN_LOGIN = Target.the("botón login")
         .locatedBy("//input[@id='login-button']");
 
@@ -22,8 +28,10 @@ public class SauceLogin implements Task {
     }
 
     @Override
+
+
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue("sauce").into(SauceLogin.TXT_USER));
+        actor.attemptsTo(Enter.theValue("standard_user").into(SauceLogin.TXT_USER));
         actor.attemptsTo(Enter.theValue("secret_sauce").into(SauceLogin.TXT_PASS));
         actor.attemptsTo(Click.on(BTN_LOGIN)
 

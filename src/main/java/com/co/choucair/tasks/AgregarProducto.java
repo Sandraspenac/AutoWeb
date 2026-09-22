@@ -17,6 +17,8 @@ public class AgregarProducto implements Task {
 
         return Tasks.instrumented(AgregarProducto.class);
 
+
+
     }
 
 
@@ -25,9 +27,9 @@ public class AgregarProducto implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(
-
+                Click.on(InventoryPage.TITTLE),
+                Click.on(InventoryPage.TXT_PRODUCTS),
                 Click.on(InventoryPage.BTN_ADD_TO_CART),
-
                 Click.on(InventoryPage.BTN_CART)
 
         );

@@ -1,8 +1,11 @@
+package com.co.choucair.models;
+
 import io.cucumber.datatable.DataTable;
 
 import net.serenitybdd.screenplay.Actor;
 
 import net.serenitybdd.screenplay.Task;
+
 
 
 import java.util.Map;
@@ -15,9 +18,9 @@ public class SaucedemoLoginTest implements Task {
 
     public SaucedemoLoginTest(String user, String pass) {
 
-        this.user = user;
+        this.user = "standard_user";
 
-        this.pass = pass;
+        this.pass = "secret_sauce";
 
     }
 
@@ -48,13 +51,13 @@ public class SaucedemoLoginTest implements Task {
 
     public String getUser() {
 
-        return user;
+        return user ;
 
     }
 
     public String getPass() {
 
-        return pass;
+        return pass ;
 
     }
 

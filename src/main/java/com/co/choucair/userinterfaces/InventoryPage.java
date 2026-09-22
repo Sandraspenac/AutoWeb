@@ -6,16 +6,18 @@ import org.openqa.selenium.By;
 
 public class InventoryPage {
 
-    public static final Target TXT_PRODUCTS = Target.the("title")
+    public static final Target TITTLE = Target.the("texto Products")
+        .located(By.xpath("//span[text()='Products']"));
 
-        .located(By.className("title"));
+    public static final Target TXT_PRODUCTS = Target.the("texto Products")
+            .located(By.xpath("//span[text()='Products']"));
 
-    public static final Target BTN_ADD_TO_CART = Target.the("add-to-cart-sauce-labs-backpack")
+    public static final Target BTN_ADD_TO_CART = Target.the("botón Add To Cart")
+            .located(By.xpath("//button[@id='add-to-cart-sauce-labs-backpack']"));
 
-        .located(By.id("add-to-cart-sauce-labs-backpack"));
+    public static final Target BTN_CART = Target.the("carrito de compras")
+            .located(By.xpath("//a[@class='shopping_cart_link']"));
 
-    public static final Target BTN_CART = Target.the("shopping_cart_link")
 
-        .located(By.className("shopping_cart_link"));
 
 }

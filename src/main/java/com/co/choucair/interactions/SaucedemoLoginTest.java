@@ -9,7 +9,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
-import com.co.choucair.interactions.SaucedemoLoginTest;
+
 
 public class SaucedemoLoginTest implements Task {
 
