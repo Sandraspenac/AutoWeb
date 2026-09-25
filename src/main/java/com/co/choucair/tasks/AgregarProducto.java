@@ -11,12 +11,8 @@ import static com.co.choucair.userinterfaces.agregarCompraAlCarro.BTN_CART;
 
 public class AgregarProducto implements Task {
 
-    public static AgregarProducto alCarro() {
-        return Tasks.instrumented(AgregarProducto.class);
-    }
-
     public static Performable AgregarProductoalCarrito() {
-        return null;
+        return Tasks.instrumented(AgregarProducto.class);
     }
 
     @Override

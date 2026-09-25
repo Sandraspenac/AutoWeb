@@ -12,17 +12,21 @@ import static com.co.choucair.interactions.Checkout.*;
 
 public class Checkout implements Task {
 
-    private static final Object CHECKOUT = null;
-    private static final String BTN_FINISH = null ;
+
     private final String nombre;
     private final String apellido;
     private final String codigo;
+    private final String lblConfirmacion;
     private String BTN_CONTINUE;
-
-    public Checkout(String nombre, String apellido, String codigo) {
+    private String BTN_FINISH;
+    public Checkout(String nombre, String apellido, String codigo, String lblConfirmacion, String btnContinue, String btnFinish) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.codigo = codigo;
+        BTN_CONTINUE = btnContinue;
+        BTN_FINISH = btnFinish;
+        this.lblConfirmacion = lblConfirmacion;
+
     }
 
     public static Performable conDatos(String nombre, String apellido, String codigo) {

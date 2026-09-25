@@ -9,6 +9,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.questions.Text;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
@@ -22,6 +23,7 @@ public class SaucedemoCheckoutStepDefinitions {
     @Given("Usuario ingresa a la página de Saucedemo")
     public void usuarioIngresaALaPaginaDeSaucedemo() {
 
+            OnStage.theActorCalled("Usuario");
     }
 
     @When("El cliente agrega un producto al carro")
