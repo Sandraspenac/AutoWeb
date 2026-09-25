@@ -4,7 +4,7 @@ import net.serenitybdd.screenplay.targets.Target;
 
 import org.openqa.selenium.By;
 
-public class InventoryPage {
+public class agregarCompraAlCarro {
 
     public static final Target TITTLE = Target.the("texto Products")
         .located(By.xpath("//span[text()='Products']"));

@@ -1,6 +1,6 @@
 package com.co.choucair.questions;
 
-import com.co.choucair.userinterfaces.InventoryPage;
+import com.co.choucair.userinterfaces.agregarCompraAlCarro;
 
 import net.serenitybdd.screenplay.Actor;
 
@@ -12,7 +12,7 @@ public class InventoryValidation implements Question<String> {
 
     public String answeredBy(Actor actor) {
 
-        return InventoryPage.TXT_PRODUCTS.resolveFor(actor).getText();
+        return agregarCompraAlCarro.TXT_PRODUCTS.resolveFor(actor).getText();
 
     }
 

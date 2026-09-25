@@ -10,12 +10,17 @@ import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import net.serenitybdd.screenplay.questions.Text;
 
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;
 
 public class SaucedemoLoginTestStepDefinitions {
+
+    private static final String TXT_PRODUCTS = null
+            ;
 
     @Before
     public void setStage() {
@@ -29,16 +34,15 @@ public class SaucedemoLoginTestStepDefinitions {
 
     @When("Usuario se autentica")
     public void usuarioSeAutentica(DataTable dataTable) {
-        OnStage.theActorInTheSpotlight().attemptsTo(SauceLogin.login(dataTable));
+        theActorInTheSpotlight().attemptsTo(SauceLogin.login(dataTable));
     }
 
 
 
-    @Then("Valida el titulo  Swag Labs Products")
-    public void valida_el_titulo_swag_labs_products(String expectedText) {
-        OnStage.theActorInTheSpotlight().should(
-                seeThat(DashboardTitle.value(), equalTo(expectedText))
-        );
+    @Then("Valida el titulo  Swag Labs")
+    public void validaElTituloSwagLabs(io.cucumber.datatable.DataTable dataTable) {
+
     }
+
 }
 

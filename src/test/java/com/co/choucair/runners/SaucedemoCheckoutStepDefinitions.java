@@ -7,7 +7,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @CucumberOptions(
 
-features = "src/test/resources/features/saucedemo_compra.feature",
+features = "src/test/resources/features/saucedemoCheckout.feature",
 glue = "com.co.choucair.stepdefinitions",
 snippets = CucumberOptions.SnippetType.CAMELCASE,
 
@@ -15,5 +15,5 @@ plugin = {"pretty"}
 
         )
 
-public class SaucedemoCompraStepDefinitions {
+public class SaucedemoCheckoutStepDefinitions {
 }
