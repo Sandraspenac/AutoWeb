@@ -8,6 +8,8 @@ import net.serenitybdd.screenplay.actions.Click;
 
 import static com.co.choucair.userinterfaces.agregarCompraAlCarro.BTN_ADD_TO_CART;
 import static com.co.choucair.userinterfaces.agregarCompraAlCarro.BTN_CART;
+import static com.co.choucair.interactions.Checkout.BTN_CHECKOUT;
+
 
 public class AgregarProducto implements Task {
 
@@ -20,7 +22,9 @@ public class AgregarProducto implements Task {
 
         actor.attemptsTo(
                 Click.on(BTN_ADD_TO_CART),
-                Click.on(BTN_CART)
+                Click.on(BTN_CART),
+                Click.on(BTN_CHECKOUT)
+
         );
     }
 }

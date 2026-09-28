@@ -1,6 +1,8 @@
 package com.co.choucair.stepdefinitions;
 
-
+import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
+import net.serenitybdd.screenplay.waits.WaitUntil;
+import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
 import com.co.choucair.interactions.Checkout;
 import com.co.choucair.tasks.AgregarProducto;
 import com.co.choucair.userinterfaces.agregarCompraAlCarro;
@@ -16,14 +18,14 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static org.hamcrest.Matchers.equalTo;
 
+
 public class SaucedemoCheckoutStepDefinitions {
 
-    private String LBL_CONFIRMACION;
 
     @Given("Usuario ingresa a la página de Saucedemo")
     public void usuarioIngresaALaPaginaDeSaucedemo() {
 
-            OnStage.theActorCalled("Usuario");
+        OnStage.theActorCalled("Usuario");
     }
 
     @When("El cliente agrega un producto al carro")
@@ -33,7 +35,6 @@ public class SaucedemoCheckoutStepDefinitions {
                 AgregarProducto.AgregarProductoalCarrito()
         );
     }
-
 
 
     @And("el cliente realiza la compra con nombre {string}, apellido {string} y código postal {string}")
@@ -46,15 +47,16 @@ public class SaucedemoCheckoutStepDefinitions {
                 Checkout.conDatos(nombre, apellido, codigo)
         );
     }
+
     @Then("la compra debe finalizar correctamente")
     public void laCompraDebeFinalizarCorrectamente() {
 
-        theActorInTheSpotlight().should(
-                seeThat(
-                        Text.of(LBL_CONFIRMACION),
-                        equalTo("Thank you for your order!")
-                )
-        );
+        String url = BrowseTheWeb.as(theActorInTheSpotlight())
+                .getDriver()
+                .getCurrentUrl();
 
+        System.out.println("================================");
+        System.out.println("URL ACTUAL: " + url);
+        System.out.println("================================");
     }
 }

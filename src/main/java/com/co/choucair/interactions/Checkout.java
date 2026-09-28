@@ -10,32 +10,30 @@ import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
 
-
-
 public class Checkout implements Task {
 
-    public static final Target BTN_CONTINUE = Target.the("BTN_CONTINUE")
-            .located(By.xpath("//input[@id='continue']"));
+    public  static final Target BTN_CHECKOUT = Target.the("boton_checkout")
+            .located(By.xpath("//button[@id='checkout']"));
 
-    public static final Target BTN_FINISH = Target.the("botón finalizar")
-            .located(By.xpath("//button[@id='finish']"));
-    public  static final Target LBL_CONFIRMATION;
 
-    static {
-        LBL_CONFIRMATION = Target.the("mensaje de confirmación")
-                .located(By.xpath("//h2[@data-test='complete-header']"));
-    }
+    public static final Target BTN_FINISH = Target.the("Botón Finish")
+            .located(By.id("finish"));
+
+
+    public static final Target LBL_CONFIRMATION = Target.the("mensaje de confirmación")
+            .located(By.xpath("//h2[@data-test='complete-header']"));
+
 
     private final String nombre;
     private final String apellido;
     private final String codigo;
-    private final String lblConfirmacion;
+
 
     public Checkout(String nombre, String apellido, String codigo) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.codigo = codigo;
-        this.lblConfirmacion = "Thank you for your order!";
+
     }
 
     public static Performable conDatos(String nombre, String apellido, String codigo) {
@@ -64,17 +62,25 @@ public class Checkout implements Task {
     public static final Target TXT_CODIGO_POSTAL = Target.the("campo código postal")
             .located(By.xpath("//input[@id='postal-code']"));
 
+    public static final Target BTN_CONTINUE = Target.the("boton_continuar")
+            .located(By.xpath("//input[@id='continue']"));
+
 
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        actor.attemptsTo(
-                Enter.theValue(nombre).into(TXT_NOMBRE),
-                Enter.theValue(apellido).into(TXT_APELLIDO),
-                Enter.theValue(codigo).into(TXT_CODIGO_POSTAL),
-                Click.on(BTN_CONTINUE),
-                Click.on(BTN_FINISH)
 
-        );
-    }
+            actor.attemptsTo(
+                    Click.on(BTN_ADD_TO_CART),
+                    Click.on(BTN_CART),
+                    Click.on(BTN_CHECKOUT),
+
+                    Enter.theValue(nombre).into(TXT_NOMBRE),
+                    Enter.theValue(apellido).into(TXT_APELLIDO),
+                    Enter.theValue(codigo).into(TXT_CODIGO_POSTAL),
+
+                    Click.on(BTN_CONTINUE),
+                    Click.on(BTN_FINISH)
+            );
+        }
 }

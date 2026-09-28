@@ -15,5 +15,5 @@ plugin = {"pretty"}
 
         )
 
-public class SaucedemoCheckoutStepDefinitions {
+public class SaucedemoCheckout {
 }
