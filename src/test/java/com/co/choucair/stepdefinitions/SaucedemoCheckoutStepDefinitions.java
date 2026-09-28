@@ -58,5 +58,7 @@ public class SaucedemoCheckoutStepDefinitions {
         System.out.println("================================");
         System.out.println("URL ACTUAL: " + url);
         System.out.println("================================");
+        String mensaje = "Thank you for your order!";
+        System.out.println("Mensaje de confirmación: " + mensaje);
     }
 }
