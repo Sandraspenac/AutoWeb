@@ -1,9 +1,30 @@
 # Proyecto de Automatización - Realizado por -  Sandra Milena Peña Castellanos.
 
-Se realiza proyecto con base de Arquetipo, se automatizan dos flujos de ejecución con patrón de Diseño Screenplay WEB, se utiliza java Coreto 21, cucumber.
+Este proyecto esta basado Arquetipo de Patron de Diseño de Screemplay, se realiza automatización de dos flujos de ejecución.
+
+Prerequisitos de Intalación 
+
+** Se utiliza java Coreto 21,
+** Cucumber
+** IntelliJIDEA
+**
+###Plugins de Inte
+Java
+
+Cucumber for Java
+Gherkin
+Maven assist
+Maven search
+SonarQB for IDE
+Visual Studio Code Dark
+Gradle for Java
+HTML Tools
+
+## Escenarios de pruebas automatizados
+
 Se realizan flujo de Login y flujo de compra incluyendo adiciónn a carrito de compra y checkout con finalización de orden de compra.
 
-##Feature - SaucedemoLogin
+##Feature - Saucedemo Login
 <p align="center"> 
 <img width="1124" height="487" alt="image" src="https://github.com/user-attachments/assets/0c4ccc98-4e81-4c47-abf8-74c028c7c648" />
 
@@ -12,15 +33,16 @@ A continuación de deja evidencia de ejecución.
 <p align="center"> 
 <img width="1159" height="579" alt="image" src="https://github.com/user-attachments/assets/601c3007-ef38-4993-8d41-1cd4fb5bea63" />
 
-##✅ Login Exitoso:
+##Muestra de ejecución con estado Exitoso
+###✅ Login Exitoso:
 
 <p align="center"> 
   
 <img width="1745" height="574" alt="image" src="https://github.com/user-attachments/assets/99e00dfb-f657-42c7-8cbb-e44e2987b9d2" />
 
-# Instrucción de Ejecución
+## Instrucción de Ejecución
 
-##✅ Evidencia de compra exitosa
+###✅ Evidencia de compra exitosa
  
 Se valida correctamente el mensaje:
  
