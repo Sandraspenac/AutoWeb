@@ -8,17 +8,16 @@ Prerequisitos de Intalación
 - Cucumber
 - IntelliJIDEA
 
-  ###Plugins de IntelliJIDEA
-Java
-
-Cucumber for Java
-Gherkin
-Maven assist
-Maven search
-SonarQB for IDE
-Visual Studio Code Dark
-Gradle for Java
-HTML Tools
+  ## 📋Plugins de IntelliJIDEA
+- Java
+- Cucumber for Java
+- Gherkin
+- Maven assist
+- Maven search
+- SonarQB for IDE
+- Visual Studio Code Dark
+- Gradle for Java
+- HTML Tools
 
 ## Escenarios de pruebas automatizados
 
