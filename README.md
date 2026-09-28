@@ -1,3 +1,48 @@
+# Proyecto de Automatización - Realizado por -  Sandra Milena Peña Castellanos.
+
+Se realiza proyecto con base de Arquetipo, se automatizan dos flujos de ejecución con patrón de Diseño Screenplay WEB, se utiliza java Coreto 21, cucumber.
+Se realizan flujo de Login y flujo de compra incluyendo adiciónn a carrito de compra y checkout con finalización de orden de compra.
+
+##Feature - SaucedemoLogin
+<p align="center"> 
+<img width="1124" height="487" alt="image" src="https://github.com/user-attachments/assets/0c4ccc98-4e81-4c47-abf8-74c028c7c648" />
+
+A continuación de deja evidencia de ejecución.
+##Feature - Saucedemo Checkout
+<p align="center"> 
+<img width="1159" height="579" alt="image" src="https://github.com/user-attachments/assets/601c3007-ef38-4993-8d41-1cd4fb5bea63" />
+
+##✅ Login Exitoso:
+
+<p align="center"> 
+  
+<img width="1745" height="574" alt="image" src="https://github.com/user-attachments/assets/99e00dfb-f657-42c7-8cbb-e44e2987b9d2" />
+
+# Instrucción de Ejecución
+
+##✅ Evidencia de compra exitosa
+ 
+Se valida correctamente el mensaje:
+ 
+**"Thank you for your order!"**
+<p align="center"> 
+<img width="1919" height="1128" alt="image" src="https://github.com/user-attachments/assets/0178e9d5-8f43-4b36-95aa-dda2b9e7de41" />
+  <p align="center"> 
+<img width="1174" height="317" alt="image" src="https://github.com/user-attachments/assets/232f559b-0baa-4919-9bdf-56531fdcf524" />
+
+###📊 Reporte basado en Serenity BDD
+
+Se visualiza el reporte de ejecución:
+ <p align="center"> 
+<img width="1919" height="1061" alt="image" src="https://github.com/user-attachments/assets/7ffc4f73-e8b6-4ff0-9272-0ea8a5e1c516" />
+### Escenarios Automatizados
+ <p align="center"> 
+      <img width="1843" height="519" alt="image" src="https://github.com/user-attachments/assets/022d14da-56a9-4e05-b6a7-ee2f58c8744e" />
+
+Este proyecto se encuentra con los siguientes Steps de ejecución:
+  <p align="center"> 
+<img width="1919" height="1064" alt="image" src="https://github.com/user-attachments/assets/8cfae7da-049b-4de0-a2a1-49252c2bfbf4" />
+
 # 🚀 Arquetipo Base de Automatización Web - Serenity BDD
 
 ## 📋 Descripción
