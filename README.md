@@ -21,7 +21,7 @@ Este proyecto esta basado Arquetipo de Patron de Diseño de Screemplay, se reali
 - Gradle for Java
 - HTML Tools
 
-## Escenarios de pruebas automatizados
+##  Escenarios de pruebas automatizados
 
 Se realizan flujo de Login y flujo de compra incluyendo adiciónn a carrito de compra y checkout con finalización de orden de compra.
 
@@ -29,7 +29,7 @@ Se realizan flujo de Login y flujo de compra incluyendo adiciónn a carrito de c
 <p align="center"> 
 <img width="1124" height="487" alt="image" src="https://github.com/user-attachments/assets/0c4ccc98-4e81-4c47-abf8-74c028c7c648" />
 
-A continuación de deja evidencia de ejecución.
+## 📝A continuación de deja evidencia de ejecución.
 
 <p align="center"> 
 <img width="1159" height="579" alt="image" src="https://github.com/user-attachments/assets/601c3007-ef38-4993-8d41-1cd4fb5bea63" />
@@ -66,6 +66,7 @@ Se valida correctamente el mensaje:
 - Este proyecto se encuentra con los siguientes Steps de ejecución:
   <p align="center"> 
 <img width="1919" height="1064" alt="image" src="https://github.com/user-attachments/assets/8cfae7da-049b-4de0-a2a1-49252c2bfbf4" />
+
 
 
 # 🚀 Arquetipo Base de Automatización Web - Serenity BDD
