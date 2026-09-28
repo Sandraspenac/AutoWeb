@@ -1,4 +1,6 @@
-# 🌟 Proyecto de Automatización - Realizado por -  Sandra Milena Peña Castellanos.
+# 🌟 Proyecto de Automatización 🌟
+
+- Realizado por:  Sandra Milena Peña Castellanos - QA analyst.
 
 Este proyecto esta basado Arquetipo de Patron de Diseño de Screemplay, se realiza automatización de dos flujos de ejecución.
 
