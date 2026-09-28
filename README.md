@@ -4,11 +4,11 @@ Este proyecto esta basado Arquetipo de Patron de Diseño de Screemplay, se reali
 
 Prerequisitos de Intalación 
 
-** Se utiliza java Coreto 21,
-** Cucumber
-** IntelliJIDEA
-**
-###Plugins de Inte
+ Se utiliza java Coreto 21,
+- Cucumber
+- IntelliJIDEA
+
+  ###Plugins de IntelliJIDEA
 Java
 
 Cucumber for Java
