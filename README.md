@@ -23,16 +23,16 @@ Prerequisitos de Intalación
 
 Se realizan flujo de Login y flujo de compra incluyendo adiciónn a carrito de compra y checkout con finalización de orden de compra.
 
-##Feature - Saucedemo Login
+- Feature - Saucedemo Login
 <p align="center"> 
 <img width="1124" height="487" alt="image" src="https://github.com/user-attachments/assets/0c4ccc98-4e81-4c47-abf8-74c028c7c648" />
 
 A continuación de deja evidencia de ejecución.
-##Feature - Saucedemo Checkout
+
 <p align="center"> 
 <img width="1159" height="579" alt="image" src="https://github.com/user-attachments/assets/601c3007-ef38-4993-8d41-1cd4fb5bea63" />
 
-##Muestra de ejecución con estado Exitoso
+## ✅ Muestra de ejecución con estado Exitoso
 ###✅ Login Exitoso:
 
 <p align="center"> 
