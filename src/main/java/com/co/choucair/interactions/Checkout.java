@@ -20,9 +20,6 @@ public class Checkout implements Task {
             .located(By.id("finish"));
 
 
-    public static final Target LBL_CONFIRMATION = Target.the("mensaje de confirmación")
-            .located(By.xpath("//h2[@data-test='complete-header']"));
-
 
     private final String nombre;
     private final String apellido;
@@ -65,6 +62,8 @@ public class Checkout implements Task {
     public static final Target BTN_CONTINUE = Target.the("boton_continuar")
             .located(By.xpath("//input[@id='continue']"));
 
+    public static final Target LBL_CONFIRMATION = Target.the("mensaje de confirmación")
+            .located(By.xpath("//h2[@data-test='complete-header']"));
 
     @Override
     public <T extends Actor> void performAs(T actor) {
@@ -74,6 +73,8 @@ public class Checkout implements Task {
                     Click.on(BTN_ADD_TO_CART),
                     Click.on(BTN_CART),
                     Click.on(BTN_CHECKOUT),
+                    Click.on(LBL_CONFIRMATION),
+
 
                     Enter.theValue(nombre).into(TXT_NOMBRE),
                     Enter.theValue(apellido).into(TXT_APELLIDO),
