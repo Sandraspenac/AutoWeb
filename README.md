@@ -1,8 +1,8 @@
-# Proyecto de Automatización - Realizado por -  Sandra Milena Peña Castellanos.
+# 🌟 Proyecto de Automatización - Realizado por -  Sandra Milena Peña Castellanos.
 
 Este proyecto esta basado Arquetipo de Patron de Diseño de Screemplay, se realiza automatización de dos flujos de ejecución.
 
-Prerequisitos de Intalación 
+##🚀Prerequisitos de Intalación 
 
  Se utiliza java Coreto 21,
 - Cucumber
@@ -53,16 +53,18 @@ Se valida correctamente el mensaje:
 
 ###📊 Reporte basado en Serenity BDD
 
-Se visualiza el reporte de ejecución:
+- Se visualiza el reporte de ejecución:
  <p align="center"> 
 <img width="1919" height="1061" alt="image" src="https://github.com/user-attachments/assets/7ffc4f73-e8b6-4ff0-9272-0ea8a5e1c516" />
-### Escenarios Automatizados
+
+  - Escenarios Automatizados
  <p align="center"> 
       <img width="1843" height="519" alt="image" src="https://github.com/user-attachments/assets/022d14da-56a9-4e05-b6a7-ee2f58c8744e" />
 
-Este proyecto se encuentra con los siguientes Steps de ejecución:
+- Este proyecto se encuentra con los siguientes Steps de ejecución:
   <p align="center"> 
 <img width="1919" height="1064" alt="image" src="https://github.com/user-attachments/assets/8cfae7da-049b-4de0-a2a1-49252c2bfbf4" />
+
 
 # 🚀 Arquetipo Base de Automatización Web - Serenity BDD
 
