@@ -35,7 +35,7 @@ Se realizan flujo de Login y flujo de compra incluyendo adiciónn a carrito de c
 <img width="1159" height="579" alt="image" src="https://github.com/user-attachments/assets/601c3007-ef38-4993-8d41-1cd4fb5bea63" />
 
 ## ✅ Muestra de ejecución con estado Exitoso
-###✅ Login Exitoso:
+## ✅ Login Exitoso:
 
 <p align="center"> 
   
@@ -43,7 +43,7 @@ Se realizan flujo de Login y flujo de compra incluyendo adiciónn a carrito de c
 
 ## Instrucción de Ejecución
 
-###✅ Evidencia de compra exitosa
+## ✅ Evidencia de compra exitosa
  
 Se valida correctamente el mensaje:
  
@@ -53,7 +53,7 @@ Se valida correctamente el mensaje:
   <p align="center"> 
 <img width="1174" height="317" alt="image" src="https://github.com/user-attachments/assets/232f559b-0baa-4919-9bdf-56531fdcf524" />
 
-###📊 Reporte basado en Serenity BDD
+## 📊 Reporte basado en Serenity BDD
 
 - Se visualiza el reporte de ejecución:
  <p align="center"> 
@@ -69,7 +69,7 @@ Se valida correctamente el mensaje:
 
 
 
-# 🚀 Arquetipo Base de Automatización Web - Serenity BDD
+## 🚀 Arquetipo Base de Automatización Web - Serenity BDD
 
 ## 📋 Descripción
 
