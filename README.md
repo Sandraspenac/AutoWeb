@@ -4,7 +4,7 @@
 
 Este proyecto esta basado Arquetipo de Patron de Diseño de Screemplay, se realiza automatización de dos flujos de ejecución.
 
-##🚀Prerequisitos de Intalación 
+## 🚀Prerequisitos de Intalación 
 
  Se utiliza java Coreto 21,
 - Cucumber
